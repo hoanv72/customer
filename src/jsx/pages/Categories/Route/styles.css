@@ -1,0 +1,148 @@
+.content {
+  margin-top: 2rem;
+}
+
+.table {
+  width: 100%;
+  margin: 0 10px 0 15px;
+  overflow: auto;
+}
+
+.table .ant-table-thead {
+  background-color: aquamarine;
+}
+
+.general-info {
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  border-left: 7px solid green;
+  font-weight: bold;
+  background-color: #e5e2e2;
+}
+
+.title .title__content {
+  font-size: 15px;
+  margin-left: 1rem;
+  padding: 5px;
+}
+
+.title .title__icon {
+  font-size: 14px;
+  color: green;
+}
+
+.general-info__content {
+  background-color: #eae3e3;
+  height: 50vh;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+}
+.general-info__content .content--group {
+  display: flex;
+  align-items: center;
+}
+
+.general-info__content .content-group__icon {
+  font-size: 15px;
+  color: red;
+}
+
+.general-info__content .content-group__span {
+  margin-left: 1rem;
+}
+
+.form {
+  padding-top: 1rem;
+}
+
+.form .form__item {
+  margin: 1rem 0;
+}
+
+.form .ant-form-item .ant-form-item-label {
+  display: flex;
+  padding-left: 1rem;
+  align-items: center;
+  font-weight: 600;
+}
+
+.route-header {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: unset;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.875rem 1.25rem 0;
+}
+
+.route-header .btn__submit {
+  background-color: #0b2a97;
+  border-color: #0b2a97;
+  font-size: 1rem;
+  border-radius: 1.25rem;
+  height: 40px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  height: 45pxs;
+}
+
+.field {
+  margin-top: 1rem;
+}
+
+.field label {
+  font-weight: 600;
+}
+
+.remove__icon {
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  padding-top: 7px;
+  color: red !important;
+}
+
+.customer-table thead tr,
+th,
+td {
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+}
+
+.customer-table thead tr th {
+  background-color: aquamarine;
+  color: rgb(70, 67, 67);
+  font-weight: 600;
+}
+
+.customer-table thead tr td {
+  background-color: aquamarine;
+  color: rgb(70, 67, 67);
+  font-weight: 600;
+}
+
+.customer-table thead {
+  background-color: #fafafa;
+}
+
+.selected-client-checkbox {
+  background: #fff;
+}
+
+.route-table {
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.route-table thead tr th {
+  border: 1px solid #ccc;
+  color: rgb(70, 67, 67);
+  font-weight: 400;
+}
+

@@ -1,0 +1,65 @@
+.monitoring-page-wrap{
+    height: 100vh;
+  }
+  
+  .content1-wrap .col{
+    padding:0;
+  }
+  
+  .content1-wrap .table{
+     /* max-width: 100%; */
+     /* width: 70%; */
+    width: 750px;
+  }
+  
+  .input {
+    color: red;
+  }
+  
+  tr {
+    background-color: #19b89a;
+    color: white;
+    text-align: center;
+  }
+  
+  td{
+    color: black;
+  }
+  
+  iframe{
+    width:100%; 
+    height:100vh; 
+    border: none;
+  }
+  
+  .monitoring-header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    background-color: #E8E8E9;
+  }
+  
+  .header-content-left{
+    display: flex;
+    padding-left:10px;
+  }
+  .dropdown{
+    background-color: gray;
+    margin-left: 10px;
+  }
+  
+  .btn-primary {
+    /* color: #fff; */
+    background-color: gray;
+    /* border-color: #007bff; */
+    font-size: 10px;
+  }
+  
+  .content2-wrap .col{
+    padding:0;
+  }
+  
+  .content2-wrap iframe{
+    height: 400px;
+  }
+  

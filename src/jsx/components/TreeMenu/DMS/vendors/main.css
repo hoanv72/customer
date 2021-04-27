@@ -1,0 +1,30 @@
+.jstree-anchor.jstree-search {
+  color: dodgerblue !important;
+}
+
+.jstree-anchor {
+  color: #7e7e7e !important;
+  font-size: 15px;
+}
+
+/* style for uncheck checkbox */
+.fa.fa-square-o {
+  margin-right: 8px;
+}
+
+/* style for checked checkbox */
+.fa-check-square-o:before {
+  color: #0b2a97;
+}
+
+.orange-icon {
+  color: #f0ad4e;
+}
+
+.red-icon {
+  color: #d9534f;
+}
+
+.green-icon {
+  color: #1ab89a;
+}
